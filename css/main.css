@@ -13,6 +13,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    font-family: 'Josefin Slab', serif;
 } 
 
 *, *::before, *::after {
@@ -27,12 +28,26 @@ nav {
     display: block;
     text-align: center;
     text-decoration: none;
-    margin: 10px;  
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
 p {
     padding: 5%;
+    margin-bottom: none;
+
+}
+
+.contact {
+    float: center;
+    padding-left: calc(50% - 155px)
+}
+
+.email {
+    text-decoration: none;
+    padding-left: calc(50% - 65px);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .socialmedia {
@@ -41,13 +56,16 @@ p {
     display: inline;
 }
 
-.contact {
-    float: center;
-    padding-left: calc(50% - 155px)
-}
-
 .link {
     text-decoration: none;
+}
+
+h1 {
+    padding: 10px;
+    background-color: #fee;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .backtotop {
@@ -60,9 +78,10 @@ p {
     text-decoration: none;
     text-align: center;
     padding-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
 }
     
 .copyright {
     padding: 0;
-    margin-left: 10px;
+    margin: 10px;
 }
