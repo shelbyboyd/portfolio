@@ -32,7 +32,6 @@ nav {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
 p {
     padding: 5%;
     margin-bottom: none;
@@ -84,4 +83,22 @@ h1 {
 .copyright {
     padding: 0;
     margin: 10px;
+}
+
+.images {
+    
+    min-width: 200px;
+}
+    
+    
+    
+    
+@media only screen and (min-width: 38em) {
+    
+    .portrait {
+        padding-left: calc(50% - 155px);
+        max-width: 35em;
+        min-width: 30em;
+        float: center;
+    }
 }
