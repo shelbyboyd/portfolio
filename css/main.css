@@ -55,12 +55,12 @@ body {
 
 p {
     padding: 5%;
-    margin-bottom: none;
+    margin-bottom: 0;
 
 }
 
 .contact {
-    float: center;
+    margin: 0 auto;
     padding-left: calc(50% - 155px)
 }
 
@@ -119,15 +119,18 @@ h1 {
 .images {
     width:100%;
 }
+.copyright {
+    position: absolute;
     
-    
+}
+
 @media only screen and (min-width: 38em) {
     
     .portrait {
         padding-left: calc(50% - 155px);
         max-width: 35em;
         min-width: 30em;
-        float: center;
+        margin: 0 auto;
     }
 }
 
