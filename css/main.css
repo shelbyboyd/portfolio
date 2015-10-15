@@ -6,7 +6,7 @@
 
 html {
     box-sizing: border-box;
-    background-color: #d8d8d8;
+    background-color: #91dffc;
     font-size: 1.25em;
     
     -moz-text-size-adjust: 100%;
@@ -29,7 +29,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
-    color: #696666;
+    color: #fffdee;
     font-size: .75em;
 }
 
@@ -68,7 +68,7 @@ p {
     text-decoration: none;
     padding-left: calc(50% - 65px);
     font-family: 'Josefin Sans', sans-serif;
-    color: #696666;
+    color: #fffdee;
 }
 
 .email:hover {
@@ -86,8 +86,8 @@ p {
 }
 
 h1 {
-    padding:5%;
-    background-color: #fee;
+    padding:2%;
+    background-color: #fffdee;
     margin-top: 10px;
     margin-bottom: 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -98,7 +98,7 @@ h1 {
     height: 50px;
     border-radius: 25px;
     float: right;
-    background-color:#fee;
+    background-color:#fffdee;
     margin: 10px;
     text-decoration: none;
     text-align: center;
