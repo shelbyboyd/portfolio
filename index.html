@@ -35,25 +35,26 @@
     
     <p id="about">I am a young designer currently based out of Ottawa, Ontario. I find inspiration all around me; from my traditional, simple country lifestyle, to my new found exciting, busy city life. Design has always been a part of human culture and as I have always been a visual learner, I love bringing a strong elemenet of design into visual communication.</p>
     
-        
-    <div id="portfolio">
-        <h1>Project Name</h1>
+    {% for data in site.data.portfolio %}  
+     <div id="portfolio">
+        <h1>{{data.name}}</h1>
             <div class="grid">
                 <div class="images">
-                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="assets/image.svg" alt="image">
-                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="assets/image.svg" alt="image">
-                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="assets/image.svg" alt="image">
+                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
+                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
+                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
                 </div>
             </div>
-        <p>description of project and inspiration</p>
+        <p>{{data.description}}</p>
+    
      
     
-        <h1>Project Name</h1>
+        <h1>{{data.name}}</h1>
             <div class="grid">
                 <div class="images">
-                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="assets/image.svg" alt="image">
-                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="assets/image.svg" alt="image">
-                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="assets/image.svg" alt="image">
+                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
+                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
+                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
                 </div>
             </div>
         <p>description of project and inspiration</p>
@@ -61,14 +62,15 @@
         <h1>Project Name</h1>
             <div class="grid">
                 <div class="images">
-                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="assets/image.svg" alt="image">
-                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="assets/image.svg" alt="image">
-                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="assets/image.svg" alt="image">
+                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
+                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
+                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
                 </div>
             </div>
         <p>description of project and inspiration</p>
-    </div>
+     </div>
     
+     {% endfor %}
         
     <div id="contact" class="contact">
         <a href="https://www.behance.net/ShelbyBoyd" class="link">
