@@ -42,37 +42,16 @@ changefreq: weekly
     
     {% for data in site.data.portfolio %}  
      <div id="portfolio">
-        <h1>{{portfolio.name}}</h1>
+        <h1>{{data.name}}</h1>
             <div class="grid">
                 <div class="images">
-                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
+                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="{{site.baseurl}}/assets/{{data.image1}}" alt="image">
+                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}/assets/{{data.image2}}" alt="image">
+                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}/assets/{{data.image3}}" alt="image">
                 </div>
             </div>
-        <p>{{portfolio.description}}</p>
+        <p>{{data.description}}</p>
     
-     
-    
-        <h1>{{portfolio.name}}</h1>
-            <div class="grid">
-                <div class="images">
-                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                </div>
-            </div>
-        <p>{{portfolio.description}}</p>
-        
-        <h1>{{portfolio.name}}</h1>
-            <div class="grid">
-                <div class="images">
-                    <img class="first unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                    <img class="second unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                    <img class="third unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}assets/image.svg" alt="image">
-                </div>
-            </div>
-        <p>{{portfolio.description}}</p>
      </div>
     
      {% endfor %}

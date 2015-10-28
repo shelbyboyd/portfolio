@@ -1,12 +1,17 @@
----
-titleAfter: Graphic Design Portfolio
----
-
 - name: Project1
   description: project description n inspiration
+  image1: image.svg
+  image2: image.svg
+  image3: image.svg
   
 - name: Project2
   description: project description n inspiration
+  image1: image.svg
+  image2: image.svg
+  image3: image.svg
   
 - name: Project3
   description: project description n inspiration
+  image1: image.svg
+  image2: image.svg
+  image3: image.svg
