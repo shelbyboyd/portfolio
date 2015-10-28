@@ -1,2 +1,3 @@
-permaline: pretty
+permalink: pretty
 baseurl: /portfolio
+exclude: ['README.md']
