@@ -7,5 +7,5 @@
     {% for post in site.post %}
       {% include sitemap-entry.xml entry=post %}
     {% endfor %}
-    
+  
 </urlset>
