@@ -119,9 +119,12 @@ h1 {
     padding-top: 20px;
 }
 
-.images {
-    width:100%;
+.images img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
+
 .copyright {
     position: absolute;   
 }
@@ -158,4 +161,5 @@ h1 {
         max-width: 60%;
         margin: 0 auto;
     }
+        
 }
