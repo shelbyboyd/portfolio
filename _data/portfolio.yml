@@ -1,17 +1,17 @@
-- name: Project1
+- name: Isometric Farming Process
   description: project description n inspiration
-  image1: image.svg
-  image2: image.svg
-  image3: image.svg
+  image1: piece-01.svg
+  image2: piece-02.svg
+  image3: piece-03.svg
   
-- name: Project2
+- name: Parking App Design
   description: project description n inspiration
-  image1: image.svg
-  image2: image.svg
-  image3: image.svg
+  image1: piece-04.svg
+  image2: piece-05.svg
+  image3: piece-06.svg
   
-- name: Project3
+- name: Logo Redesign
   description: project description n inspiration
-  image1: image.svg
-  image2: image.svg
-  image3: image.svg
+  image1: piece-07.svg
+  image2: piece-08.svg
+  image3: piece-09.svg
