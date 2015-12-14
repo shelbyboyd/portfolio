@@ -37,7 +37,7 @@ changefreq: weekly
     </div>
     
     <p id="about">I am a young designer currently based out of Ottawa, Ontario. I find inspiration all around me; from my traditional, simple country lifestyle, to my new found exciting, busy city life. Design has always been a part of human culture and as I have always been a visual learner, I love bringing a strong elemenet of design into visual communication.</p>
-    
+   
     {% for data in site.data.portfolio %}  
      <div id="portfolio">
         <h1>{{data.name}}</h1>
@@ -52,13 +52,14 @@ changefreq: weekly
                     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
                         <img src="{{site.baseurl}}/assets/{{data.image3}}" alt="image">
                     </div>
-               
+
             </div>
         <p>{{data.description}}</p>
     
      </div>
     
      {% endfor %}
+    
 <div itemscope itemtype="http://schema.org/Person">    
     <div id="contact" class="contact">
         <a href="https://www.behance.net/ShelbyBoyd" itemprop="url" class="link">
