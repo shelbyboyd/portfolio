@@ -146,6 +146,9 @@ h1 {
         margin: 0 auto;
     }
 
+    .images {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -159,6 +162,10 @@ h1 {
       p {
         max-width: 60%;
         margin: 0 auto;
+    }
+    
+    .images {
+        display: block;
     }
         
 }
