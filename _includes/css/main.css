@@ -146,7 +146,7 @@ h1 {
         margin: 0 auto;
     }
 
-    .images {
+    .images img {
         display: block;
     }
 }
@@ -164,7 +164,7 @@ h1 {
         margin: 0 auto;
     }
     
-    .images {
+    .images img {
         display: block;
     }
         
